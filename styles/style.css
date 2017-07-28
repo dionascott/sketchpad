@@ -1,0 +1,25 @@
+.container {
+  box-sizing: content-box;
+  border: 1px solid black;
+  position: relative;
+  margin: 10px auto;
+  width: 600px;
+  height: 600px;
+}
+
+.box {
+  box-sizing: border-box;
+  position: static;
+  margin: 0;
+  display: inline-block;
+  background-color: #d4e0ec;
+  float: left;
+}
+
+.darker {
+  background-color: #9a8f8f;
+}
+
+.lighter {
+  background-color: #c5c1c1;
+}
