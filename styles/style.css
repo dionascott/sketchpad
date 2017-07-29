@@ -1,19 +1,35 @@
-.container {
+#container {
   box-sizing: content-box;
   border: 1px solid black;
   position: relative;
   margin: 10px auto;
   width: 600px;
   height: 600px;
+  overflow: hidden;
+}
+
+#button {
+  position: relative;
+  width: 600px;
+  margin: auto;
+}
+
+#reset {
+  left: 300px;
+  position: relative;
+  transform: translateX(-50%);
 }
 
 .box {
   box-sizing: border-box;
-  position: static;
+  position: relative;
   margin: 0;
   display: inline-block;
   background-color: #d4e0ec;
   float: left;
+}
+.randomColor {
+
 }
 
 .darker {
